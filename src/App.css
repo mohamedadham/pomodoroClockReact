@@ -102,3 +102,31 @@ body, html, #root{
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 600px){
+    
+    #pomodoro-text{
+        font-size:2em!important;
+    }
+    #break-label, #session-label{
+        font-size: 1em!important;
+    }
+    #session-label{
+        margin-left: 10px;
+    }
+    .session-content{
+        width: 100%;
+    }
+    .fav-icons{
+        margin:0 5px;
+    }
+    #timer-label{
+        font-size: 1.8em;
+    }
+    #time-left{
+        font-size: 3em;
+    }
+    #session-length, #break-length{
+        font-size: 1.4em;
+    }
+    
+}

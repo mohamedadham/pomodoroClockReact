@@ -105,10 +105,13 @@ body, html, #root{
 @media only screen and (max-width: 600px){
     
     #pomodoro-text{
-        font-size:2em!important;
+        font-size:1.8em!important;
+        margin-bottom: 10px;
     }
     #break-label, #session-label{
         font-size: 1em!important;
+        margin-top: 5px;
+    margin-bottom: 5px;
     }
     #session-label{
         margin-left: 10px;
@@ -128,5 +131,10 @@ body, html, #root{
     #session-length, #break-length{
         font-size: 1.4em;
     }
+    
+    .font-awesome-icon{
+    display: inline-block;
+    font-size: 50px;
+}
     
 }
